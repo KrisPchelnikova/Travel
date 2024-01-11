@@ -1,0 +1,585 @@
+@media (min-width: 1000px)  { 
+.container {
+    width: 1000px;
+    height: 1500px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.header h2 {
+    margin-left: 30px;
+    color: rgb(0, 153, 255);
+    margin-top: 30px;
+}
+
+.but {
+    width: 400px;
+    height: 20px;
+    margin: auto;
+}
+
+.but a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.but a:hover {
+    color: rgb(0, 153, 255);
+}
+
+.but a.active {
+    color: #0099ff;
+}
+
+.header button {
+    padding: 10px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.but1 {
+    background: white;
+}
+
+.but1:hover {
+    background: black;
+    color: white;
+}
+
+.but2 {
+    background: black;
+    color: white;
+}
+
+.but2:hover {
+    background: white;
+    color: black;
+}
+
+.zag .pp {
+    color: rgb(162, 162, 162);
+    width: 500px;
+    margin-left: 30px;
+    margin-top: -30px;
+    font-size: 20px;
+
+}
+.zag img{
+    margin-left: 600px;
+    margin-top: -500px;
+    border-radius: 30px;
+}
+.zag h1 {
+    margin-top: 80px;
+    width: 450px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.block{
+    width: 500px;
+    height: 75px;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.loc{
+    margin-top: -55px;
+    margin-left: 60px;
+}
+.loc p{
+    color: rgb(162, 162, 162);
+}
+.date p{
+    color: rgb(162, 162, 162);
+}
+.date{
+    margin-top: -60px;
+    margin-left: 310px;
+}
+.line{
+    margin-top: -60px;
+    margin-left: 250px;
+    width: 2px;
+    height: 30px;
+    background: rgb(155, 155, 155);
+}
+.block .locim{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.block .dateim{
+    margin-top: 10px;
+    margin-left: 220px;
+}
+.search{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 440px;
+}
+.block p{
+    margin-top: -10px;
+}
+.zag2 .pp {
+    color: rgb(162, 162, 162);
+    width: 420px;
+    margin-left: 30px;
+    margin-top: -30px;
+    font-size: 22px;
+}
+
+.zag2 h1 {
+    margin-top: 80px;
+    width: 600px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.oc{
+    display: flex;
+    margin-left: 200px;
+    margin-top: -45px;
+}
+.oc img{
+    margin-top: 0px;
+}
+.bl1, .bl2, .bl3, .bl4, .bl5, .bl6
+{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.bl1 img, .bl2 img, .bl3 img, .bl4 img, .bl5 img, .bl6 img
+{
+    border-radius: 20px;
+}
+.bl1 p, .bl2 p, .bl3 p, .bl4 p, .bl5 p, .bl6 p
+{
+    margin-top: 0px;
+    font-size: 18px;
+    color: rgb(133, 133, 133);
+}
+
+.bl1 h3, .bl2 h3, .bl3 h3, .bl4 h3, .bl5 h3, .bl6 h3{
+    font-size: 22px;
+    
+}
+
+.kat{
+    display: flex;
+    width: 700px;
+}
+.footer h2 {
+    margin-left: 30px;
+    color: rgb(0, 153, 255);
+    margin-top: 30px;
+}
+.footer{
+    background: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+.fut1{
+    width: 250px;
+}
+.fut1 p{
+    margin-left: 30px;
+}
+.fut2{
+    margin-left: 200px;
+}
+.fut3{
+    margin-left: 300px;
+}
+.bod{
+    background: gray;
+}
+.cont{
+    width: 100%;
+    height: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.whi{
+    width: 500px;
+    height: 500px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.whi h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute
+}
+.whi input{
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 350px;
+    height: 30px;
+    border: none;
+}
+.email{
+    padding-top: 50px;
+}
+.whi img{
+    margin-left: 45px;
+    margin-top: 50px;
+    position: absolute;
+}
+.line1{
+    width: 400px;
+    height: 2px;
+    background: #a0a0a0;
+    margin: auto;
+    margin-top: 20px;
+}
+.pass .ey{
+    margin-left: -50px;
+}
+
+
+.whi .check{
+width: 20px;
+margin-top: 20px;
+margin-left: 50px;
+}
+.whi .zap{
+    margin-top: -27px;
+    margin-left: 90px;
+    color: #535353;
+}
+.whi .zp{
+    text-decoration: none;
+    color: #0077ff;
+    margin-left: 340px;
+    margin-top: -32px;
+    position: absolute;
+}
+.whi .voit{
+    background: #0077ff;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.sa{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.whi a{
+    text-decoration: none;
+    color: #0077ff;
+}
+
+}
+@media (max-width: 1000px)  { 
+    .container {
+        width: 500px;
+        height: 1500px;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    
+    .header h2 {
+        margin-left: 30px;
+        color: rgb(0, 153, 255);
+        margin-top: 30px;
+    }
+    
+    .but {
+        width: 400px;
+        height: 20px;
+        margin: auto;
+    }
+    
+    .but a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: transparent;
+        transition: 0.2s;
+    }
+    
+    .but a:hover {
+        color: transparent;
+    }
+    
+    .but a.active {
+        color: transparent;
+    }
+    
+    .header button {
+        padding: 10px;
+        height: 40px;
+        margin-top: 30px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        transition: 0.2s;
+    }
+    
+    .but1 {
+        background: white;
+    }
+    
+    .but1:hover {
+        background: black;
+        color: white;
+    }
+    
+    .but2 {
+        background: black;
+        color: white;
+    }
+    
+    .but2:hover {
+        background: white;
+        color: black;
+    }
+    
+    .zag .pp {
+        color: rgb(162, 162, 162);
+        width: 330px;
+        margin-left: 90px;
+        margin-top: -30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .zag img{
+        margin-left: 50px;
+        margin-top: 100px;
+        border-radius: 30px;
+        position: absolute;
+    }
+    .zag h1 {
+        margin-top: 80px;
+        width: 470px;
+        margin-left: 30px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .block{
+        width: 500px;
+        height: 75px;
+        border: 2px solid rgb(189, 189, 189);
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    .loc{
+        margin-top: -55px;
+        margin-left: 60px;
+    }
+    .loc p{
+        color: rgb(162, 162, 162);
+    }
+    .date p{
+        color: rgb(162, 162, 162);
+    }
+    .date{
+        margin-top: -60px;
+        margin-left: 310px;
+    }
+    .line{
+        margin-top: -60px;
+        margin-left: 250px;
+        width: 2px;
+        height: 30px;
+        background: rgb(155, 155, 155);
+    }
+    .block .locim{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .block .dateim{
+        margin-top: 10px;
+        margin-left: 220px;
+    }
+    .search{
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 440px;
+    }
+    .block p{
+        margin-top: -10px;
+    }
+    .zag2 .pp {
+        color: rgb(162, 162, 162);
+        width: 420px;
+        margin-left: 0px;
+        margin-top: -30px;
+        font-size: 22px;
+    }
+    
+    .zag2 h1 {
+        margin-top: 350px;
+        width: 600px;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    .oc{
+        display: flex;
+        margin-left: 340px;
+        margin-top: -45px;
+    }
+    .oc img{
+        margin-top: 0px;
+    }
+    .bl1, .bl2, .bl3, .bl4, .bl5, .bl6
+    {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .bl1 .bbl, .bl2 .bbl, .bl3 .bbl, .bl4 .bbl, .bl5 .bbl, .bl6 .bbl
+    {
+        border-radius: 20px;
+        width: 400px;
+        height: 400px;
+    }
+    .bl1 p, .bl2 p, .bl3 p, .bl4 p, .bl5 p, .bl6 p
+    {
+        margin-top: 0px;
+        font-size: 18px;
+        color: rgb(133, 133, 133);
+    }
+    
+    .bl1 h3, .bl2 h3, .bl3 h3, .bl4 h3, .bl5 h3, .bl6 h3{
+        font-size: 25px;
+        
+    }
+    
+    .kat{
+        width: 700px;
+    }
+    .footer h2 {
+        margin-left: 30px;
+        color: rgb(0, 153, 255);
+        margin-top: 30px;
+    }
+    .footer{
+        background: rgb(22, 22, 22);
+        color: white;
+        width: 100%;
+        padding-top: 20px;
+        height: 400px;
+    }
+    .fut1{
+        width: 250px;
+    }
+    .fut1 p{
+        margin-left: 30px;
+        width: 250px;
+    }
+    .fut2{
+        margin-left: 30px;
+    }
+    .fut3{
+        margin-top: -200px;
+        margin-left: 300px;
+    }
+    .bod{
+        background: gray;
+    }
+    .cont{
+        width: 100%;
+        height: 1000px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .whi{
+        width: 500px;
+        height: 500px;
+        background: #ffffff;
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+    .whi h1{
+        margin-top: 20px;
+        margin-left: 20px;
+        position: absolute
+    }
+    .whi input{
+        margin-top: 50px;
+        margin-left: 90px;
+        width: 350px;
+        height: 30px;
+        border: none;
+    }
+    .email{
+        padding-top: 50px;
+    }
+    .whi img{
+        margin-left: 45px;
+        margin-top: 50px;
+        position: absolute;
+    }
+    .line1{
+        width: 400px;
+        height: 2px;
+        background: #a0a0a0;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .pass .ey{
+        margin-left: -50px;
+    }
+    
+    
+    .whi .check{
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    }
+    .whi .zap{
+        margin-top: -27px;
+        margin-left: 90px;
+        color: #535353;
+    }
+    .whi .zp{
+        text-decoration: none;
+        color: #0077ff;
+        margin-left: 340px;
+        margin-top: -32px;
+        position: absolute;
+    }
+    .whi .voit{
+        background: #0077ff;
+        color: white;
+        width: 350px;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .sa{
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    .whi a{
+        text-decoration: none;
+        color: #0077ff;
+    }
+    
+    }
